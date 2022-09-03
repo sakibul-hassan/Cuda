@@ -1,0 +1,530 @@
+*{
+    padding: 0%;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+section{
+    padding: 100px 0px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.underline{
+ border-top: 5px solid rgba(0, 0, 0, 0.209) ;
+ width: 7%;
+ margin: auto;
+}
+.global-heading{
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.small-heading{
+    width: 25px;
+    font-weight: 600;
+}
+/* header part */
+header{
+    width: 100%;
+    float: left;
+    background-color: #87509c;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+.logo-part{
+    width: 50%;
+    float: left;
+    padding-top: 35px;
+}
+
+.menu-part{
+    width: 50%;
+    float: left;
+    padding-top: 35px;
+    text-align: end;
+}
+
+.menu-part li{
+display: inline-block;
+margin: 0px 10px;
+padding: 7px 9px;
+border-radius: 5px;
+transition: ease-in-out 0.3s;
+}
+.menu-part li:hover{
+    background-color: rgba(0, 0, 0, 0.201);
+}
+
+.menu-part a{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero-part{
+    width: 100%;
+    float: left;
+    padding: 47px;
+    margin: 150px 0px;
+    text-align: center;
+}
+
+.hero-part h1{
+    font-size: 35px;
+    font-weight: 600;
+    width: 65%;
+    margin: auto;
+}
+
+.hero-part a button {
+    width: 15%;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #eb7d4b;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: medium;
+    transition: ease-in-out 0.4s;
+}
+
+.hero-part a button:hover{
+    box-shadow: 0px 0px 8px #fa6b28;
+}
+  
+/* Service Section */
+#service{
+    width: 100%;
+    float: left;
+    background-color: #17c2a4;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0px;
+
+}
+
+.service-writing-part{
+    width: 100%;
+    float: left;
+}
+
+.service-box-part{
+    margin-top: 50px;
+    width: 100%;
+    float: left;
+}
+
+.service-box{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.service-box img{
+    height: 120px;
+}
+.service-box-part h2{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.service-writing-part{
+    width: 100%;
+    float: left;
+}
+
+/* Team Section */
+#team{
+    width: 100%;
+    float: left;
+    background-color: #ffff;
+    text-align: center;
+
+}
+
+
+.team-box-part{
+    margin-top: 50px;
+    width: 100%;
+    float: left;
+}
+
+.team-box{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.team-box img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    transition: ease-in-out 0.4s;
+}
+.team-box h2{
+padding-top: 23px;
+}
+.team-titel{
+    color: #48c1e9;
+}
+
+.team-box-part p{
+    padding-top: 20px;
+}
+
+.team-icons{
+padding-top: 25px;
+}
+
+.team-icons i{
+background-color: #bdd1df;
+color: #fff;
+padding: 10px;
+width: 35px;
+border-radius: 50px;
+margin: 3px;
+transition: ease-in-out 0.3s;
+}
+.team-icons i:hover{
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.41); 
+}
+
+/* Skills Section */
+
+#skills{
+    width: 100%;
+    float: left;
+    background-color: white;
+    color: #3c4761;
+    text-align: center;
+    padding: 80px 0px;
+
+}
+
+.skills-writing-part{
+    width: 100%;
+    float: left;
+}
+
+.skills-box-part{
+    margin-top: 50px;
+    padding-top: 70px;
+    width: 100%;
+    float: left;
+}
+
+.skills-box{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin: auto;
+}
+.skills-box img{
+    height: 120px;
+}
+.skills-box-part h2{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.skills-writing-part{
+    width: 100%;
+    float: left;
+}
+/* Portfolio Part */
+#portfolio{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: black;
+    background-color: #ffdd99;
+
+}
+
+
+.portfolio-box-part{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.portfolio-box-part-2{
+    margin-top: 50px;
+    width: 100%;
+    float: left;
+}
+
+.portfolio-box{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.portfolio-box h2{
+padding-top: 23px;
+font-family: 'Titillium Web', sans-serif;
+}
+
+.portfolio-box-part p{
+    padding-top: 20px;
+}
+
+.portfolio-icons{
+padding-top: 25px;
+}
+
+.portfolio-icons i{
+background-color: #bdd1df;
+color: #fff;
+padding: 10px;
+width: 35px;
+border-radius: 50px;
+margin: 3px;
+transition: ease-in-out 0.3s;
+}
+
+.categories-part{
+    width: 100%;
+    float: left;
+    padding-top: 35px;
+    text-align: center;
+   
+}
+.categories-part a{
+    color: black;
+}
+
+.categories-part li{
+display: inline-block;
+margin: 0px 10px;
+padding: 7px 9px;
+border-radius: 5px;
+background-color: #ebc985;
+transition: ease-in-out 0.6s;
+}
+.categories-part li:hover{
+    background-color: #ffffff;
+}
+
+.categories-part a{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.portfolio-box-2{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 80px;
+}
+
+.portfolio-box-part a button {
+    width: 20%;
+    height: 20%;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #17c2a4;
+    border-radius: 3px;
+    margin: auto;
+   font-weight:600 ;
+   font-size: large;
+   transition: ease-in-out 0.5s;
+
+}
+.portfolio-box-part a button:hover{
+    box-shadow: 0px 4px #14a58c;
+}
+.button{
+    width: 100%;
+    float: left;
+    padding-top: 70px;
+}
+
+
+/* Testimonials Part */
+#testimonials {
+background-color: #d74680;
+width: 100%;
+float: left;
+}
+.testimonial-writing-part {
+width: 100%;
+float: left;
+padding-bottom: 30px;
+color: #fff;
+}
+.testimonial-writing-part h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.testimonial-writing-part-paragraph {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    padding: 18px 0px;
+}
+.testimonial-box-1-part {
+    width: 100%;
+    float: left;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.testimonial-icon {
+    width: 13%;
+    float: left;
+}
+.testimonial-icon img {
+    width: 80px;
+    margin-left: 50px;
+}
+.testimonial-writing {
+    width: 37%;
+    float: left;
+    text-align:left;
+}
+.testimonial-writing p {
+    padding: 3px 0px 15px 0px;
+    font-size: 14px;
+    width: 70%;
+    margin: auto;
+}
+.testimonial-writing h2 {
+    width: 70%;
+    margin: auto;
+}
+.testimonial-writing h6 {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.testimonial-box-2-part {
+    width: 100%;
+    float: left;
+    color: #fff;
+    padding-top: 30px;
+}
+
+/* contact section */
+#contact{
+    width: 84rem;
+    float: left;
+    background-color: #3c5499;
+    text-align: center;
+    color: white;
+}
+.contact-writinting-part{
+    width: 100%;
+    float: left;
+}
+.contact-writinting-part h2{
+    width: 100%;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 200;
+}
+.contact-form-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.form-row{
+    width: 100%;
+    float: left;
+}
+.form-name{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding: 10px;
+}
+.form-email{
+    width: 50%;
+    float: left;
+    text-align: start;
+    padding: 10px;
+}
+.form-mesage{
+    width: 100px;
+    float: left;
+}
+ input::placeholder{
+    color: #fff;
+}
+textarea::placeholder{
+    color: #fff;
+}
+#f-name{
+    width: 50%;
+    background-color: #273a71;
+    padding: 10px;
+    color: #fff;
+}
+#email{
+    width: 50%;
+    background-color: #273a71;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+}
+#message{
+    height: 200px;
+    padding: 10px;
+    background-color: #273a71;
+    color: #fff;
+    width: 50%;
+}
+.form-btn{
+    width: 17%;
+    padding: 15px;
+    margin-top: 20px;
+    color: #ffff;
+    background-color: #30bae7;
+    transition: ease-out 0.3s;
+    border-radius: 5px;
+}
+.form-btn a{
+    font-weight: 600;
+}
+.form-btn:hover{
+    box-shadow: 0px 4px 0px #299ec5;
+}
+
+/* End Part */
+#end{
+    width: 84rem;
+    background-color:  #273a71;
+    text-align: center;
+    padding: 20px;
+}
+.end-menu{
+    width: 100%
+}
+.end-menu li{
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 6px;
+}
+.end-menu a{
+    font-size: 17px;
+    color: #ffff;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: ease-in-out 0.3s;
+}
+.end-menu a:hover{
+    color: #30bae7;
+}
